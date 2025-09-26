@@ -1,0 +1,14 @@
+body{
+    font-family:sans-serif;
+    margin:20px
+}
+h1{
+    font-size:2em
+}
+li{
+    margin:5px 0
+}
+button{
+    margin-left:5px;
+    cursor:pointer
+}
