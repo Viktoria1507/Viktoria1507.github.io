@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Start 30 day free Team trial — Form</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="card" role="form" aria-label="Start 30 day free Team trial">
+    <div class="card-header">
+      <div class="title">Start 30 day free Team trial</div>
+      <div class="sub">See plans</div>
+      <div class="billing-toggle" id="billingToggle">
+        <span id="annual">Billed annually -20%</span>
+        <span id="monthly" class="active">Billed monthly</span>
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3>Billing information</h3>
+      <div class="field-grid">
+        <div class="field">
+          <label>Email</label>
+          <div class="value"><input type="email" placeholder="Enter email" aria-label="Email"></div>
+        </div>
+
+        <div class="field">
+          <label>Address</label>
+          <div class="value"><input type="text" placeholder="Enter address" aria-label="Address"></div>
+        </div>
+
+        <div class="field">
+          <label>City</label>
+          <div class="value"><input type="text" placeholder="Enter city" aria-label="City"></div>
+        </div>
+
+        <div class="two">
+          <div class="field small">
+            <label>State</label>
+            <div class="value"><select aria-label="State"><option>Select</option><option>NT</option></select></div>
+          </div>
+          <div class="field small">
+            <label>ZIP</label>
+            <div class="value"><input type="text" placeholder="ZIP" aria-label="ZIP"></div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Country</label>
+          <div class="value">
+            <select aria-label="Country">
+              <option>Select</option>
+              <option>United States</option>
+              <option>Canada</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <h3>Payment information <span style="font-size:12px; color:var(--muted); font-weight:500"> (Secured by Stripe)</span></h3>
+      <div class="payment">
+        <div class="card-input" role="group" aria-label="Card info">
+          <div class="icon">💳</div>
+          <input id="cardNumber" placeholder="Card number" aria-label="Card number" style="border:0; outline:0; font-size:14px; width:100%">
+          <input id="exp" placeholder="MM / YY" maxlength="7" aria-label="Expiration" style="width:76px; border:0; outline:0; text-align:right">
+        </div>
+
+        <label class="promo" id="promoToggle"><input type="checkbox" id="promoCheckbox"> Add promo code</label>
+        <div id="promoBox" style="display:none;">
+          <div class="field">
+            <label>Promo</label>
+            <div class="value"><input placeholder="Enter promo code" aria-label="Promo code"></div>
+          </div>
+        </div>
+
+        <div class="note">You will not be charged today.</div>
+        <div class="price">After your trial ends, you will be charged <strong>$8.50 per month.</strong><br><span class="note">You can cancel anytime before your trial ends on <strong>Wednesday, October 18, 2023</strong></span></div>
+      </div>
+    </div>
+
+    <div class="card-footer">
+      <button class="btn" onclick="alert('Canceled!')">Cancel</button>
+      <div style="display:flex; gap:10px; align-items:center">
+        <div class="terms">Terms</div>
+        <button class="btn primary" onclick="alert('Trial started!')">Start trial <span style="font-weight:500; font-size:12px; margin-left:8px">⌘+Enter</span></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
