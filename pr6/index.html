@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Автомобільні запчастини</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <header class="header">
+        <div class="logo-block">
+            <span class="logo">AutoParts</span>
+            <span class="logo-sub">Інтернет-магазин автозапчастин</span>
+        </div>
+
+        <!-- Іконка корзини у верхньому правому кутку -->
+        <button id="cartBtn" class="cart-btn">
+            <span class="cart-text">Корзина</span>
+            <span class="cart-icon">🛒</span>
+            <span id="cartCount" class="cart-count">0</span>
+        </button>
+    </header>
+
+    <h1 class="page-title">Список товарів</h1>
+
+    <main class="products">
+
+        <!-- Товар 1 -->
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Bw-4hW2hUXENPm0ORo1p2YahAS1YaUY7Yw&s" alt="Гальмівні колодки Bosch" class="product-image">
+            <div class="product-body">
+                <h3 class="product-title">Гальмівні колодки Bosch</h3>
+                <p class="product-price">Ціна: <span>1500</span> грн</p>
+                <button class="add"
+                        data-name="Гальмівні колодки Bosch"
+                        data-price="1500">
+                    Додати у корзину
+                </button>
+            </div>
+        </div>
+
+        <!-- Товар 2 -->
+        <div class="product">
+            <img src="https://cdn.27.ua/original/da/2e/514606_12.jpeg" alt="Моторна олива Shell Helix" class="product-image">
+            <div class="product-body">
+                <h3 class="product-title">Моторна олива Shell Helix</h3>
+                <p class="product-price">Ціна: <span>950</span> грн</p>
+                <button class="add"
+                        data-name="Моторна олива Shell Helix"
+                        data-price="950">
+                    Додати у корзину
+                </button>
+            </div>
+        </div>
+
+        <!-- Товар 3 -->
+        <div class="product">
+            <img src="https://bazza.com.ua/imgs/mann/toplivnyy-filtr-mann-wk9007_460x330.jpg" alt="Паливний фільтр Mann" class="product-image">
+            <div class="product-body">
+                <h3 class="product-title">Паливний фільтр Mann</h3>
+                <p class="product-price">Ціна: <span>600</span> грн</p>
+                <button class="add"
+                        data-name="Паливний фільтр Mann"
+                        data-price="600">
+                    Додати у корзину
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+<!-- Модальне вікно: корзина пуста -->
+<div class="modal" id="emptyCartModal">
+    <div class="modal-content">
+        <p>Корзина пуста</p>
+        <button id="emptyOkBtn">OK</button>
+    </div>
+</div>
+
+<!-- Модальне вікно: вкажіть кількість -->
+<div class="modal" id="quantityModal">
+    <div class="modal-content">
+        <p>Вкажіть кількість:</p>
+        <input type="number" id="quantityInput" min="1" value="1">
+        <div class="modal-buttons">
+            <button id="quantityConfirmBtn">Додати до корзини</button>
+            <button id="quantityCancelBtn">Скасувати</button>
+        </div>
+    </div>
+</div>
+
+<!-- Модальне вікно: товар додано -->
+<div class="modal" id="addedModal">
+    <div class="modal-content">
+        <p>Товар додано</p>
+        <div class="modal-buttons">
+            <button id="goToCartBtn">Перейти у корзину</button>
+            <button id="continueShoppingBtn">Повернутись до покупок</button>
+        </div>
+    </div>
+</div>
+
+<script src="script/script.js"></script>
+</body>
+</html>

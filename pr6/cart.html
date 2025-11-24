@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина товарів</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <header class="header">
+        <div class="logo-block">
+            <span class="logo">AutoParts</span>
+            <span class="logo-sub">Корзина замовлення</span>
+        </div>
+    </header>
+
+    <h1 class="page-title">Корзина товарів</h1>
+
+    <main class="cart-wrapper">
+        <div class="cart-box">
+            <table class="cart-table">
+                <thead>
+                <tr>
+                    <th>Товар</th>
+                    <th>Кількість</th>
+                    <th>Ціна за одиницю</th>
+                    <th>Сума</th>
+                </tr>
+                </thead>
+                <tbody id="cartTableBody">
+                <!-- Рядки додає JavaScript -->
+                </tbody>
+            </table>
+
+            <div class="cart-footer">
+                <span id="cartTotal" class="cart-total-text"></span>
+            </div>
+        </div>
+
+        <div class="cart-actions">
+            <a href="index.html" class="btn-link">⬅ Повернутись до покупок</a>
+            <a href="#" id="payLink" class="btn-primary">Оплатити</a>
+        </div>
+    </main>
+
+</div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
