@@ -1,0 +1,33 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 12px;
+}
+
+#map {
+	height: 60vh;
+	border: 1px solid #aaa;
+	border-radius: 6px;
+	margin-bottom: 12px;
+}
+
+.controls {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+}
+
+input[type="text"] {
+	padding: 6px;
+	width: 220px;
+}
+
+button {
+	padding: 6px 10px;
+	cursor: pointer;
+}
+
+.status {
+	font-size: 0.95rem;
+	margin-bottom: 10px;
+}

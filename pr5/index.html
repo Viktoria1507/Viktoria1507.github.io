@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Геолокація + карта Leaflet</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+	<h1>Практична робота: Геолокація + карта</h1>
+
+	<div class="status">
+		<b>Координати:</b> <span id="coords">—</span><br>
+		<b>Точність:</b> <span id="accuracy">—</span><br>
+		<b>Відстань до коледжу:</b> <span id="distance">—</span><br>
+		<b>Час оновлення:</b> <span id="timestamp">—</span>
+	</div>
+
+	<div class="controls">
+		<button id="btnGet">Отримати місце</button>
+		<button id="btnWatch">Стежити</button>
+		<button id="btnClear">Зупинити</button>
+		<button id="btnAddMarker">Маркер тут</button>
+		<input type="text" id="destInput" placeholder="lat,lng">
+		<button id="btnGoTo">Перейти</button>
+	</div>
+
+	<div id="map"></div>
+
+	<!-- JS Leaflet -->
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+	<script src="script/script.js"></script>
+</body>
+</html>
