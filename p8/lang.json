@@ -1,0 +1,10 @@
+{
+  "en": {
+    "title": "Hello!",
+    "text": "This is a simple example of internationalization (i18n)."
+  },
+  "uk": {
+    "title": "Привіт!",
+    "text": "Це простий приклад інтернаціоналізації (i18n)."
+  }
+}
