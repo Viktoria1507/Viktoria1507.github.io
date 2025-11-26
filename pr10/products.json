@@ -1,0 +1,170 @@
+{
+  "translations": {
+    "title": {
+      "uk": "Обов'язково додайте запчастини до свого замовлення",
+      "en": "Be sure to add spare parts to your order"
+    },
+    "buttons": {
+      "addToCart": {
+        "uk": "У кошик",
+        "en": "Add to cart"
+      },
+      "comingSoon": {
+        "uk": "Незабаром у продажі",
+        "en": "Coming soon"
+      }
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "badgeType": "hit",
+      "badgeText": {
+        "uk": "Хіт продажів",
+        "en": "Best seller"
+      },
+      "category": {
+        "uk": "Гальмівна система",
+        "en": "Braking system"
+      },
+      "title": {
+        "uk": "Гальмівні колодки Ferodo FDB527",
+        "en": "Ferodo FDB527 brake pads"
+      },
+      "image": "img/brake-pads-ferodo.jpg",
+      "price": 995,
+      "oldPrice": null,
+      "currency": {
+        "uk": "грн",
+        "en": "UAH"
+      },
+      "btnType": "addToCart",
+      "link": "https://auto.rozetka.com.ua/ua/tormoznie-kolodki/c4629980/"
+    },
+    {
+      "id": 2,
+      "badgeType": "new",
+      "badgeText": {
+        "uk": "Новинка",
+        "en": "New"
+      },
+      "category": {
+        "uk": "Масляні фільтри",
+        "en": "Oil filters"
+      },
+      "title": {
+        "uk": "Масляний фільтр Sofima S 5600 R",
+        "en": "Oil filter Sofima S 5600 R"
+      },
+      "image": "img/oil-filter-sofima-5600r.jpg",
+      "price": 269,
+      "oldPrice": 320,
+      "currency": {
+        "uk": "грн",
+        "en": "UAH"
+      },
+      "btnType": "addToCart",
+      "link": "https://auto.rozetka.com.ua/ua/sofima-s-5600-r/p447329057/"
+    },
+    {
+      "id": 3,
+      "badgeType": "hit",
+      "badgeText": {
+        "uk": "Хіт продажів",
+        "en": "Best seller"
+      },
+      "category": {
+        "uk": "Акумулятори",
+        "en": "Batteries"
+      },
+      "title": {
+        "uk": "Акумулятор Exide Premium 60Ah",
+        "en": "Exide Premium 60Ah battery"
+      },
+      "image": "img/battery-exide-60ah.jpg",
+      "price": 3305,
+      "oldPrice": 4243,
+      "currency": {
+        "uk": "грн",
+        "en": "UAH"
+      },
+      "btnType": "addToCart",
+      "link": "https://auto.rozetka.com.ua/ua/avtomobilnie-akkumulyatori/c4644136/"
+    },
+    {
+      "id": 4,
+      "badgeType": "hit",
+      "badgeText": {
+        "uk": "Хіт продажів",
+        "en": "Best seller"
+      },
+      "category": {
+        "uk": "Склоочисники",
+        "en": "Wipers"
+      },
+      "title": {
+        "uk": "Щітки Bosch AeroTwin 580/450 мм",
+        "en": "Bosch AeroTwin wipers 580/450 mm"
+      },
+      "image": "img/wiper-bosch-aerotwin.jpg",
+      "price": 1079,
+      "oldPrice": null,
+      "currency": {
+        "uk": "грн",
+        "en": "UAH"
+      },
+      "btnType": "addToCart",
+      "link": "https://rozetka.com.ua/ua/stekloochistiteli/c4625053/"
+    },
+    {
+      "id": 5,
+      "badgeType": "new",
+      "badgeText": {
+        "uk": "Новинка",
+        "en": "New"
+      },
+      "category": {
+        "uk": "Повітряні фільтри",
+        "en": "Air filters"
+      },
+      "title": {
+        "uk": "Повітряний фільтр для двигуна",
+        "en": "Engine air filter"
+      },
+      "image": "img/air-filter.jpg",
+      "price": 399,
+      "oldPrice": 450,
+      "currency": {
+        "uk": "грн",
+        "en": "UAH"
+      },
+      "btnType": "addToCart",
+      "link": "https://auto.rozetka.com.ua/ua/avtofiltry/c4627283/"
+    },
+    {
+      "id": 6,
+      "badgeType": "hit",
+      "badgeText": {
+        "uk": "Хіт продажів",
+        "en": "Best seller"
+      },
+      "category": {
+        "uk": "Система запалювання",
+        "en": "Ignition system"
+      },
+      "title": {
+        "uk": "Свічки запалювання NGK (комплект)",
+        "en": "NGK spark plugs (set)"
+      },
+      "image": "img/spark-plugs-ngk.jpg",
+      "price": 335,
+      "oldPrice": null,
+      "currency": {
+        "uk": "грн",
+        "en": "UAH"
+      },
+      "btnType": "addToCart",
+      "link": "https://auto.rozetka.com.ua/ua/svechi-zagiganiya/c4642656/producer%3Dngk/"
+    }
+  ]
+}

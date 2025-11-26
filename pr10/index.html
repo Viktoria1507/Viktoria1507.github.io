@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <title>Каталог автозапчастин</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<section class="catalog-section">
+    <div class="catalog-header">
+        <h2 class="catalog-title"></h2>
+
+        <div class="language-switcher">
+            <label for="languageSelect">Мова:</label>
+            <select id="languageSelect">
+                <option value="uk">UA</option>
+                <option value="en">EN</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="catalog-wrapper">
+        <div class="swiper catalog-swiper">
+            <div class="swiper-wrapper catalog-cards"></div>
+
+            <div class="swiper-button-prev catalog-prev"></div>
+            <div class="swiper-button-next catalog-next"></div>
+            <div class="swiper-pagination catalog-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/script/script.js"></script>
+
+</body>
+</html>

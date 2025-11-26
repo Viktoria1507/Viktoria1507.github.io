@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+    color: #222;
+}
+
+.catalog-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.catalog-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.language-switcher select {
+    padding: 6px 10px;
+    font-size: 15px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px 12px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.badge-new {
+    background: #55ad23;
+}
+
+.badge-hit {
+    background: #0092d4;
+}
+
+.product-category {
+    font-size: 14px;
+    color: #555;
+    margin-top: 30px;
+    min-height: 18px;
+}
+
+.product-image-wrapper {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 15px;
+}
+
+.product-image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007acc;
+    margin: 5px 0 15px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.price-block {
+    font-size: 18px;
+    margin-bottom: 10px;
+    min-height: 26px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #888;
+    margin-right: 6px;
+}
+
+.btn-cart {
+    background: #ffd800;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.catalog-wrapper {
+    position: relative;
+}
+
+.catalog-swiper {
+    padding: 30px 60px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: black;
+}
+
+.swiper-pagination-bullet-active {
+    background: #007acc;
+}
+
+@media (max-width: 700px) {
+    .catalog-swiper {
+        padding: 20px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+}
